@@ -1,0 +1,136 @@
+body
+{
+  background-image: url("img/cv15.jpg");
+  background-attachment: fixed;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.bc1
+{
+text-align: center;
+}
+.grid-container {
+  display: grid;
+  grid-column-gap: 30px;
+  grid-template-columns: auto auto auto auto auto ;
+  padding: 5px;
+}
+h1
+{
+  text-shadow: 2px 2px 4px black;
+  font-size: 50px;
+  color: #ff5050;
+}
+ul
+{
+  font-size: 25px;
+  color: #2cd6c5;
+  text-shadow: 1px 1px 1px black;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+p
+{
+  font-size: 25px;
+  color: #2cd6c5;
+  text-shadow: 2px 2px 2px black;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0.5px 0.5px #8533ff, 0.5em 0 0.7em #8533ff, -0.5em 0 0.7em #8533ff;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: 'Reactor7', monospace;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    ;
+  }
+h2
+{
+  text-shadow: 2px 2px 4px black;
+  font-size: 30px;
+  color: #ff5050;
+  width: 100%;
+  box-shadow: 0.5px 0.5px #8533ff, 0.5em 0 0.7em #8533ff, -0.5em 0 0.7em #8533ff;
+}
+.starter-template {
+
+  padding: 40px 40px;
+
+  text-align: center;
+}
+#dev1{
+  color: #AE19E1;
+  font-size: 50px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.rating {
+   direction: rtl;
+ }
+.rating a {
+   color: #aaa;
+   text-decoration: none;
+   font-size: 3em;
+   transition: color .4s;
+}
+.rating a:hover,
+.rating a:focus,
+.rating a:hover ~ a,
+.rating a:focus ~ a {
+   color: #AE19E1;
+   cursor:url(Icon/cursor2.png)4 12,auto;
+ }
+ body{
+      cursor:url(Icon/cursor1.png)4 12,auto;
+ }
+#tel{
+cursor:url(Icon/tel.png)4 12,auto;
+}
+#mail{
+  cursor:url(Icon/mail.png)4 12,auto;
+}
+.btn-btn-primary {
+  transition: transform .2s;
+  border-color: #130269;
+  cursor:url(Icon/cursor2.png)4 12,auto;
+}
+.btn-sample2 {
+    transition: transform .2s;
+  color: #FFFFFF;
+  background-color: #ff5050;
+  border-color: #130269;
+  cursor:url(Icon/cursor2.png)4 12,auto;
+}
+.btn-sample {
+  transition: transform .2s;
+  color: #FFFFFF;
+  background-color: #611BBD;
+  border-color: #130269;
+  cursor:url(Icon/cursor2.png)4 12,auto;
+}
+#but1{
+    cursor:url(Icon/cursor2.png)4 12,auto;
+}
+#shaco{
+  width:200px;
+  border-radius: 100%;
+}
+#linkedin{
+  width:10px
+}
+
+ .container-fluid{
+   max-width: 100%;
+ }
