@@ -1,8 +1,10 @@
 body
 {
-  background-image: url("img/cv15.jpg");
+  background: linear-gradient(
+  rgba(5,0,0,0.8),
+  rgba(5,0,0,0.8)
+  ),url("img/dbz.jpg");
   background-attachment: fixed;
-
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -29,15 +31,16 @@ ul
   font-size: 25px;
   color: #2cd6c5;
   text-shadow: 1px 1px 1px black;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(55, 45, 45, 0.6);
+box-shadow: 0.5px 0.5px black, 0.5em 0 0.7em black, -0.5em 0 0.7em black;
 }
 p
 {
   font-size: 25px;
   color: #2cd6c5;
   text-shadow: 2px 2px 2px black;
-  background-color: rgba(0, 0, 0, 0.7);
-  box-shadow: 0.5px 0.5px #8533ff, 0.5em 0 0.7em #8533ff, -0.5em 0 0.7em #8533ff;
+  background-color: rgba(55, 45, 45, 0.6);
+box-shadow: 0.5px 0.5px black, 0.5em 0 0.7em black, -0.5em 0 0.7em black;
 }
 .list-unstyled {
     padding-left: 0;
@@ -61,7 +64,8 @@ h2
   font-size: 30px;
   color: #ff5050;
   width: 100%;
-  box-shadow: 0.5px 0.5px #8533ff, 0.5em 0 0.7em #8533ff, -0.5em 0 0.7em #8533ff;
+  background-color: rgba(55, 45, 45, 0.6);
+  box-shadow: 0.5px 0.5px black, 0.5em 0 0.7em black, -0.5em 0 0.7em black;
 }
 .starter-template {
 
@@ -71,9 +75,9 @@ h2
 }
 #dev1{
   color: #AE19E1;
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(55, 45, 45, 0.8);
 }
 
 .rating {
@@ -83,7 +87,7 @@ h2
    color: #aaa;
    text-decoration: none;
    font-size: 3em;
-   transition: color .4s;
+   transition: color 1s;
 }
 .rating a:hover,
 .rating a:focus,
@@ -102,19 +106,19 @@ cursor:url(Icon/tel.png)4 12,auto;
   cursor:url(Icon/mail.png)4 12,auto;
 }
 .btn-btn-primary {
-  transition: transform .2s;
+  transition: all 0.5s ease 0s;
   border-color: #130269;
   cursor:url(Icon/cursor2.png)4 12,auto;
 }
 .btn-sample2 {
-    transition: transform .2s;
+    transition: all 0.5s ease 0s;
   color: #FFFFFF;
   background-color: #ff5050;
   border-color: #130269;
   cursor:url(Icon/cursor2.png)4 12,auto;
 }
 .btn-sample {
-  transition: transform .2s;
+transition: all 0.5s ease 0s;;
   color: #FFFFFF;
   background-color: #611BBD;
   border-color: #130269;
@@ -127,10 +131,16 @@ cursor:url(Icon/tel.png)4 12,auto;
   width:200px;
   border-radius: 100%;
 }
-#linkedin{
-  width:10px
-}
-
  .container-fluid{
    max-width: 100%;
+ }
+footer{
+  background-color: rgba(55, 45, 45, 0.8);
+  box-shadow: 0.5px 0.5px black, 0.5em 0 0.7em black, -0.5em 0 0.7em black;
+}
+ #iconstyle{
+font-size: 64px;
+ }
+ h6{
+   color:#FF5050;
  }
