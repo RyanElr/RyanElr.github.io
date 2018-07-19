@@ -31,7 +31,7 @@ ul
   font-size: 25px;
   color: #2cd6c5;
   text-shadow: 1px 1px 1px black;
-  background-color: rgba(55, 45, 45, 0.6);
+  background-color: rgba(5, 0, 0, 0.7);
 box-shadow: 0.5px 0.5px black, 0.5em 0 0.7em black, -0.5em 0 0.7em black;
 }
 p
@@ -64,7 +64,7 @@ h2
   font-size: 30px;
   color: #ff5050;
   width: 100%;
-  background-color: rgba(55, 45, 45, 0.6);
+  background-color: rgba(55, 45, 45, 0.8);
   box-shadow: 0.5px 0.5px black, 0.5em 0 0.7em black, -0.5em 0 0.7em black;
 }
 .starter-template {
