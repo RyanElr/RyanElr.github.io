@@ -74,7 +74,7 @@ h2
   text-align: center;
 }
 #dev1{
-  color: #AE19E1;
+  color: #2cd6c5;
   font-size: 40px;
   text-align: center;
   background-color: rgba(55, 45, 45, 0.8);
@@ -120,9 +120,11 @@ cursor:url(Icon/tel.png)4 12,auto;
 .btn-sample {
 transition: all 0.5s ease 0s;;
   color: #FFFFFF;
-  background-color: #611BBD;
   border-color: #130269;
   cursor:url(Icon/cursor2.png)4 12,auto;
+}
+.btn:hover{
+  background-color: #611BBD;
 }
 #but1{
     cursor:url(Icon/cursor2.png)4 12,auto;
@@ -139,7 +141,11 @@ footer{
   box-shadow: 0.5px 0.5px black, 0.5em 0 0.7em black, -0.5em 0 0.7em black;
 }
  #iconstyle{
-font-size: 62px;
+   font-size: 64px;
+   cursor:url(Icon/cursor2.png)4 12,auto;
+ }
+ #iconstyle3{
+   color:#000000
  }
  h6{
    color:#FF5050;
