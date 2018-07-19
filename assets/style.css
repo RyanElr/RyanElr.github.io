@@ -86,7 +86,7 @@ h2
 .rating a {
    color: #aaa;
    text-decoration: none;
-   font-size: 3em;
+   font-size: 2em;
    transition: color 1s;
 }
 .rating a:hover,
@@ -114,13 +114,13 @@ cursor:url(Icon/tel.png)4 12,auto;
     transition: all 0.5s ease 0s;
   color: #FFFFFF;
   background-color: #ff5050;
-  border-color: #130269;
+  border-color: black;
   cursor:url(Icon/cursor2.png)4 12,auto;
 }
 .btn-sample {
 transition: all 0.5s ease 0s;;
   color: #FFFFFF;
-  border-color: #130269;
+  border-color: black;
   cursor:url(Icon/cursor2.png)4 12,auto;
 }
 .btn:hover{
