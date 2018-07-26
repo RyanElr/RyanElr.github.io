@@ -7,6 +7,7 @@
     <meta charset="utf-8" />
     <link href="assets/materialize/css/materialize.css" rel="stylesheet" />
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
     integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous" />
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
@@ -26,6 +27,7 @@
     <link rel="stylesheet" href="assets/style.css" />
     <link rel="stylesheet" href="assets/img/Shaco.png" />
     <title>CvNumérique</title>
+    <script src="assets/js/script.js"></script>
    </head>
   <body>
     <div class="container-fluid">
@@ -43,11 +45,11 @@
 
         <div class="offset-4">
         <div class="col-md-12">
-        <a href="#forci"><button type="button" class="btn sample btn-sample" id="but1">Mon Parcours</button></a>
-        <a href="#forca"><button type="button" class="btn sample btn-sample2" id="but1">Mes Compétences</button></a>
-        <a href="#forcu"><button type="button" class="btn sample btn-sample" id="but1">Ma Formation</button></a>
-        <a href="#forcy"><button type="button" class="btn sample btn-sample2" id="but1">Loisirs</button></a>
-        <a href="#forco"><button type="button" class="btn sample btn-sample" id="but1">Contact</button></a>
+        <a href="#forci"><button type="button" class="btn sample btn-sample js-scrollTo"id="but1">Mon Parcours</button></a>
+        <a href="#forca"><button type="button" class="btn sample btn-sample2 js-scrollTo" id="but1">Mes Compétences</button></a>
+        <a href="#forcu"><button type="button" class="btn sample btn-sample js-scrollTo" id="but1">Ma Formation</button></a>
+        <a href="#forcy"><button type="button" class="btn sample btn-sample2 js-scrollTo" id="but1">Loisirs</button></a>
+        <a href="#forco"><button type="button" class="btn sample btn-sample js-scrollTo" id="but1">Contact</button></a>
       </div>
     </div>
             <div class="col-md-12">
@@ -65,65 +67,75 @@
         <div class="col-md-12">
           <em>
             <h2 id="forca">Mes Compétences</h2>
-           <ul class="list-unstyled">
-            <li>HTML5 et CSS3<div class="rating">
-              <a href="#5">☆</a>
-              <a href="#4">☆</a>
-              <a href="#3">☆</a>
-              <a href="#2">☆</a>
-              <a href="#1">☆</a>
-              </div></li>
-            <li>Nano<div class="rating">
-              <a href="#3">☆</a>
-              <a href="#2">☆</a>
-              <a href="#1">☆</a>
-              </div></li>
-            <li>Git<div class="rating">
-              <a href="#4">☆</a>
-              <a href="#3">☆</a>
-              <a href="#2">☆</a>
-              <a href="#1">☆</a>
-              </div></li>
-            <li>Atom<div class="rating">
-              <a href="#5">☆</a>
-              <a href="#4">☆</a>
-              <a href="#3">☆</a>
-              <a href="#2">☆</a>
-              <a href="#1">☆</a>
-              </div></li>
-            <li>Bootstrap<div class="rating">
-              <a href="#3">☆</a>
-              <a href="#2">☆</a>
-              <a href="#1">☆</a>
-              </div></li>
-              <li>JavaScript<div class="rating">
-                <a href="#4">☆</a>
-                <a href="#3">☆</a>
-                <a href="#2">☆</a>
-                <a href="#1">☆</a>
-              </div></li>
-              <li>JQuery<div class="rating">
-                <a href="#4">☆</a>
-                <a href="#3">☆</a>
-                <a href="#2">☆</a>
-                <a href="#1">☆</a>
-              </div></li>
-              <li>AngularJS<div class="rating">
-                <a href="#3">☆</a>
-                <a href="#2">☆</a>
-                <a href="#1">☆</a>
-              </div></li>
-              <li>Canvas<div class="rating">
-                <a href="#3">☆</a>
-                <a href="#2">☆</a>
-                <a href="#1">☆</a>
-              </div></li>
-            <li>PHP<div class="rating">
-              <a href="#2">☆</a>
-              <a href="#1">☆</a>
-              </div></li>
-          </ul>
-            </em>
+            <div class="container-fluid">
+              <!--bloc compétences-->
+              <div class="row">
+                <div class="col-lg-12 col-sm-12 col-xs-12 col-md-12">
+                <div id="compétences">
+                <div id="cleft">
+                <!--bloc compétences gauche-->
+                <h3>Systèmes</h3>
+                <p><i class="fab fa-windows fa-2x"></i> Windows</p>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-animated progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div>
+                </div>
+                <p><i class="fab fa-linux fa-2x"></i> Linux</p>
+                <div class="progress"><div class="progress-bar progress-bar-animated progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div>
+                </div>
+                <p><i class="fab fa-apple fa-2x"></i> Mac</p>
+                <div class="progress">
+                <div class="progress-bar progress-bar-animated progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div></div>
+                <h3> Langages</h3>
+                <p><i class="icon-html5" style="font-size:1.7em"></i> HTML</p>
+                <div class="progress">
+                <div class="progress-bar progress-bar-animated progress-bar-striped active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div></div>
+                <p><i class="icon-css3" style="font-size:1.7em"></i> CSS</p>
+                <div class="progress">
+                <div class="progress-bar progress-bar-animated progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div></div>
+                <p><i class="icon-php-alt" style="font-size:1.7em"></i> PHP</p>
+                <div class="progress">
+                <div class="progress-bar progress-bar-animated progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div></div>
+                <p><i class="icon-javascript" style="font-size:1.7em"></i> Javascript</p>
+                <div class="progress">
+                <div class="progress-bar progress-bar-animated progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div></div>
+                <p><i class="icon-database" style="font-size:1.7em"></i> SQL</p>
+                <div class="progress">
+                <div class="progress-bar progress-bar-animated progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div></div>
+                </div>
+                <!--<img src="http://aujac.fr/wp-content/uploads/2015/06/theatre-1024x768.jpg">-->
+                <div id="cright">
+                <!--bloc compétences droite-->
+                <h3>Frameworks</h3>
+                <p><i class="icon-bootstrap" style="font-size:1.5em"></i> Bootstrap</p>
+                <div class="progress">
+                <div class="progress-bar progress-bar-animated progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div></div>
+                <p><i class="icon-angular" style="font-size:1.4em"></i> AngularJS</p>
+                <div class="progress">
+                <div class="progress-bar progress-bar-animated progress-bar-striped active" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="min-width: 20px; width: 80%">80%</div></div>
+                <p><i class="icon-jquery" style="font-size:1.5em"></i> JQuery</p>
+                <div class="progress">
+                <div class="progress-bar progress-bar-animated progress-bar-striped active" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="min-width: 20px; width: 80%">80%</div></div>
+                <h3>Outils</h3>
+                <p><i class="icon-git" style="font-size:1.5em"></i> Git</p>
+                <div class="progress">
+                <div class="progress-bar progress-bar-animated progress-bar-striped active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div></div>
+                <p><i class="fab fa-github fa-2x"></i> Github</i></p>
+                <div class="progress">
+                <div class="progress-bar progress-bar-animated progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div></div>
+                <p> <i class="icon-shell" style="font-size:1.7em"></i> Ligne de commande</p>
+                <div class="progress">
+                <div class="progress-bar progress-bar-animated progress-bar-striped active" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div></div>
+                <p><i class="icon-script" style="font-size:1.7em"></i> Nano</p>
+                <div class="progress">
+                <div class="progress-bar progress-bar-animated progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div></div>
+                <p><i class="icon-reactjs" style="font-size:1.7em"></i> Atom</p>
+                <div class="progress">
+                <div class="progress-bar progress-bar-animated progress-bar-striped active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         </div>
         <div class="col-md-12">
           <em>
@@ -157,6 +169,7 @@
       </div>
   </div>
 </div>
+
 
 <!--Footer-->
 
@@ -198,7 +211,7 @@
         <h6 id="forco" class="text-uppercase font-weight-bold">Me contacter</h6>
 
         <p>
-          <i  class="fa fa-envelope mr-3"></i><a id="mail" href="mailto: ">ryan.elr@outlook.com</a>
+          <i  class="fa fa-envelope mr-2"></i><a id="mail" href="mailto: ">ryan.elr@outlook.com</a>
         </p>
 
         <p>

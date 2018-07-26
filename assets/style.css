@@ -25,6 +25,7 @@ h1
   text-shadow: 2px 2px 4px black;
   font-size: 50px;
   color: #ff5050;
+
 }
 ul
 {
@@ -33,6 +34,7 @@ ul
   text-shadow: 1px 1px 1px black;
   background-color: rgba(5, 0, 0, 0.7);
 box-shadow: 0.5px 0.5px black, 0.5em 0 0.7em black, -0.5em 0 0.7em black;
+transition: inherit 2s;
 }
 p
 {
@@ -147,6 +149,28 @@ footer{
  #iconstyle3{
    color:#000000
  }
+ h3{
+   color:#FF5050;
+   background-color: rgba(5, 0, 0, 0.7);
+   box-shadow: 0.5px 0.5px black, 0.5em 0 0.7em black, -0.5em 0 0.7em black;
+ }
  h6{
    color:#FF5050;
+
+ }.progress {
+   width: 30%;
  }
+ .progress-bar-striped {
+   background-color: #440a11;
+ }
+ @media (max-width: 1200px) {
+     .progress {
+       width: 100%;
+     }
+   * {
+     -webkit-transition: none !important;
+     -moz-transition: none !important;
+     -o-transition: none !important;
+     -ms-transition: none !important;
+     transition: none !important;
+   }
