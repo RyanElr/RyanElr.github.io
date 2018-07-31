@@ -2,17 +2,17 @@ $(document).ready(function() {
   $('.js-scrollTo').on('click', function() {
   var page = $(this).attr('href');
   var speed = 1800;
-  $('html, body').animate( { scrollTop: $(page).offset().bottom}, speed );Go
-  return false;
+  $('html, body').animate( { scrollBottom: $(page).offset().bottom}, speed );Go
+  return true;
  });
 });
 $(function (){
     function timer(n) {
         $(".progress-bar").css("width", n + "%");
-        if(n < 80) {
-                setTimeout(function() {
-                    timer(n + 10);
-            }, 300);
+        if(){
+              setTimeout(function() {
+                  timer(n + 10);
+            }, 200);
         }
     }
 
