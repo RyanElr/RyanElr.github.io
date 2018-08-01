@@ -87,6 +87,7 @@ h2
   background-color: rgba(55, 45, 45, 0.8);
 }
 .js-scrollTo{
+  cursor:url(Icon/cursor2.png)4 12,auto;
   position: absolute;
 }
 .rating {
@@ -134,11 +135,12 @@ transition: all 0.5s ease 0s;;
   cursor:url(Icon/cursor2.png)4 12,auto;
 }
 .btn:hover{
+  cursor:url(Icon/cursor2.png)4 12,auto;
   background-color: #611BBD;
 }
 .btn{
-  font-size: 20px;
-    cursor:url(Icon/cursor2.png)4 12,auto;
+cursor:url(Icon/cursor2.png)4 12,auto;
+font-size: 18px;
 }
 #shaco{
   width:200px;
