@@ -1,31 +1,20 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta charset="utf-8" />
-    <link href="assets/materialize/css/materialize.css" rel="stylesheet" />
-    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width" />
+    <!-- CDN BOOTSTRAP -->
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
     integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous" />
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
     integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-
     <!-- GOOGLE FONT -->
-
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css%22%3E" />
     <link rel="stylesheet" href="assets/style.css" />
-    <link rel="stylesheet" href="assets/img/Shaco.png" />
     <title>CvNumérique</title>
     <script src="assets/js/script.js"></script>
    </head>
@@ -41,15 +30,15 @@
         </div>
         </div>
 
-        <!--Bouttons bootstrap-->
+        <!--Bouttons bootstrap- qui amènent vers les liens.-->
 
         <div class="offset-4">
         <div class="col-md-12">
-        <a href="#forci"><button type="button" class="btn sample btn-sample js-scrollTo"id="but1">Mon Parcours</button></a>
-        <a href="#forca"><button type="button" class="btn sample btn-sample2 js-scrollTo" id="but1">Mes Compétences</button></a>
-        <a href="#forcu"><button type="button" class="btn sample btn-sample js-scrollTo" id="but1">Ma Formation</button></a>
-        <a href="#forcy"><button type="button" class="btn sample btn-sample2 js-scrollTo" id="but1">Loisirs</button></a>
-        <a href="#forco"><button type="button" class="btn sample btn-sample js-scrollTo" id="but1">Contact</button></a>
+        <button type="button" href="#forci" class="btn sample btn-sample js-scrollBottom">Mon Parcours</button>
+        <button type="button" href="#forca" class="btn sample btn-sample2 js-scrollBottom">Mes Compétences</button>
+        <button type="button" href="#forcu" class="btn sample btn-sample js-scrollBottom">Ma Formation</button>
+        <button type="button" href="#forcy" class="btn sample btn-sample2 js-scrollBottom">Loisirs</button>
+        <button type="button" href="#forco" class="btn sample btn-sample js-scrollBottom">Contact</button>
       </div>
     </div>
             <div class="col-md-12">
@@ -65,7 +54,6 @@
         <!--Compétences-->
 
         <div class="col-md-12">
-          <em>
             <h2 id="forca">Mes Compétences</h2>
             <div class="container-fluid">
               <!--bloc compétences-->
@@ -74,6 +62,7 @@
                 <div id="compétences">
                 <div id="cleft">
                 <!--bloc compétences gauche-->
+                <!-- Progress Bars -->
                 <h3>Systèmes</h3>
                 <p><i class="fab fa-windows fa-2x"></i> Windows</p>
                 <div class="progress">
@@ -173,7 +162,6 @@ Préparation au Titre professionnel "Développeur de sites et d'applications web
 
 
 <!--Footer-->
-
 <footer>
   <div class="row py-4 d-flex align-items-center">
   <div id="foota">
@@ -199,7 +187,7 @@ Préparation au Titre professionnel "Développeur de sites et d'applications web
         </p>
       </div>
       <!-- Grid column -->
-      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
 
         <!--Contact-->
 
@@ -208,7 +196,7 @@ Préparation au Titre professionnel "Développeur de sites et d'applications web
           <i class="fa fa-home mr-3"></i>60400 NOYON, 25, rue Louis Pergaud, France
         </p>
       </div>
-      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
         <h6 id="forco" class="text-uppercase font-weight-bold">Me contacter</h6>
 
         <p>
@@ -219,12 +207,16 @@ Préparation au Titre professionnel "Développeur de sites et d'applications web
           <i  class="fa fa-phone mr-3"></i><a id="tel" href="tel: ">07.67.84.62.22</a>
         </p>
       </div>
+      <div class="col-md-3">
+        <button href="#shaco" type="button" class="btn sample btn-sample2 js-scrollTo">Haut de page</button>
+      </div>
       <!-- Grid column -->
     </div>
     <!-- Grid row -->
   </div>
   <!-- Footer Links -->
 </div>
+    <script src="assets/js/script.js"></script>
 </footer>
  </body>
   </html>
