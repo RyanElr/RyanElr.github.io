@@ -164,6 +164,7 @@ footer{
    color:#FF5050;
    background-color: rgba(5, 0, 0, 0.7);
    box-shadow: 0.5px 0.5px black, 0.5em 0 0.7em black, -0.5em 0 0.7em black;
+   width: 100%
  }
  h6{
    color:#FF5050;
