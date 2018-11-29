@@ -1,9 +1,9 @@
 body
 {
-  background: linear-gradient(
-  rgba(5,0,0,0.8),
-  rgba(5,0,0,0.8)
-  ),url("img/dbz.jpg");
+    background: linear-gradient(
+    rgba(5,0,0,0.8),
+    rgba(5,0,0,0.8)
+    ),url("img/dbz.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -79,6 +79,12 @@ h2
   padding: 40px 40px;
 
   text-align: center;
+}
+#navbarColor{
+  background-color: rgba(5, 0, 0, 0.7);
+  font-size: 40px;
+  text-align: center;
+   box-shadow: 0.5px 0.5px black, 0.5em 0 0.7em black, -0.5em 0 0.7em black;
 }
 #dev1{
   color: #2cd6c5;
