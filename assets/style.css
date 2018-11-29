@@ -87,7 +87,6 @@ h2
   background-color: rgba(55, 45, 45, 0.8);
 }
 .js-scrollTo{
-  cursor:url(Icon/cursor2.png)4 12,auto;
   position: absolute;
 }
 .rating {
@@ -104,16 +103,12 @@ h2
 .rating a:hover ~ a,
 .rating a:focus ~ a {
    color: #AE19E1;
-   cursor:url(Icon/cursor2.png)4 12,auto;
  }
  body{
-      cursor:url(Icon/cursor1.png)4 12,auto;
  }
 #tel{
-cursor:url(Icon/tel.png)4 12,auto;
 }
 #mail{
-  cursor:url(Icon/mail.png)4 12,auto;
 }
 .btn-btn-primary {
   transition: all 0.5s ease 0s;
@@ -125,21 +120,18 @@ cursor:url(Icon/tel.png)4 12,auto;
   color: #FFFFFF;
   background-color: #ff5050;
   border-color: black;
-  cursor:url(Icon/cursor2.png)4 12,auto;
 }
 .btn-sample {
 transition: all 0.5s ease 0s;;
   color: #FFFFFF;
   background-color: #2CD6C5;
   border-color: black;
-  cursor:url(Icon/cursor2.png)4 12,auto;
 }
 .btn:hover{
   cursor:url(Icon/cursor2.png)4 12,auto;
   background-color: #611BBD;
 }
 .btn{
-cursor:url(Icon/cursor2.png)4 12,auto;
 font-size: 18px;
 }
 #shaco{
@@ -155,7 +147,6 @@ footer{
 }
  #iconstyle{
    font-size: 64px;
-   cursor:url(Icon/cursor2.png)4 12,auto;
  }
  #iconstyle3{
    color:#000000
@@ -189,4 +180,9 @@ footer{
    }
 #atom{
   font-style: blue
+}
+
+#navbarNavDropdown{
+  background-color: black;
+ box-shadow: 0.5px 0.5px black, 0.5em 0 0.7em black, -0.5em 0 0.7em black;
 }
