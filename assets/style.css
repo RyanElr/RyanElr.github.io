@@ -119,23 +119,19 @@ h2
 .btn-btn-primary {
   transition: all 0.5s ease 0s;
   border-color: #130269;
-  cursor:url(Icon/cursor2.png)4 12,auto;
+
 }
 .btn-sample2 {
     transition: all 0.5s ease 0s;
   color: #FFFFFF;
-  background-color: #ff5050;
+  background: linear-gradient( #ff5050, #00001a);
   border-color: black;
 }
 .btn-sample {
 transition: all 0.5s ease 0s;;
   color: #FFFFFF;
-  background-color: #2CD6C5;
+    background: linear-gradient( #2cd6c5, #00001a);
   border-color: black;
-}
-.btn:hover{
-  cursor:url(Icon/cursor2.png)4 12,auto;
-  background-color: #611BBD;
 }
 .btn{
 font-size: 18px;
