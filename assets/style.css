@@ -48,7 +48,6 @@ p
 box-shadow: 0.5px 0.5px black, 0.5em 0 0.7em black, -0.5em 0 0.7em black;
 }
 
-}
 .list-unstyled {
     padding-left: 0;
     list-style: none;
@@ -110,12 +109,7 @@ h2
 .rating a:focus ~ a {
    color: #AE19E1;
  }
- body{
- }
-#tel{
-}
-#mail{
-}
+
 .btn-btn-primary {
   transition: all 0.5s ease 0s;
   border-color: #130269;
@@ -188,6 +182,6 @@ footer{
   background-color: black;
  box-shadow: 0.5px 0.5px black, 0.5em 0 0.7em black, -0.5em 0 0.7em black;
 }
-#iconstyle2{
+#iconstyle{
   width: 10px;
 }
